@@ -5,4 +5,8 @@ class Note
     @text = text
     @tag = tag
   end
+
+  def print
+    puts "#{@text} [#{@tag}]"
+  end
 end
